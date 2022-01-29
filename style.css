@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+body {
+    margin: 0;
+    font-family: 'Roboto Slab', serif;
+}
+
+header {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 32px;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+}
+
+
+main {
+    background-image: url('побег_фон.jpg');
+    color: white;
+    height: 600px;
+    padding: 10px;
+    background-size: cover;
+}
+
+
+article>img {
+    width: 100%;
+}
+
+section {
+    display: flex;
+    gap: 16px;
+    padding: 32px 0;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+article {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-shrink: 1;
+    max-width: 500px;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    padding: 22px;
+}
+
+
+a {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+
+.menu {
+    flex-wrap: wrap;
+    display: flex;
+    gap: 10px;
+    order: -1;
+}
+
+.maintext {
+    top: 350px;
+    left: 5px;
+    position: relative;
+    color: white;
+    max-width: 500px;
+}
